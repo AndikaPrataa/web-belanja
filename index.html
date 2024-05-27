@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- anggota kelompok :
+  Ivan Alif Hadrian (2215061057)
+  Andika Maulidian Pratama (2215061065) -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BelanjaKuy</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- Style -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    footer .links {
+      margin-bottom: 1.4rem;
+    }
+
+    footer .links a {
+      color: #fff;
+      padding: 0.7rem 1rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="#" class="navbar-logo">Belanja<span>Kuy</span>.</a>
+
+    <div class="navbar-nav">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#products">Produk Unggulan</a>
+      <a href="product.html">Produk</a>
+      <a href="#contact">Kontak</a>
+    </div>
+
+    <div class="navbar-extra">
+      <a href="#" id="search-button"><i data-feather="search"></i></a>
+      <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+      <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </div>
+
+    <!-- Search Form start -->
+    <div class="search-form">
+      <input type="search" id="search-box" placeholder="search here...">
+      <label for="search-box"><i data-feather="search"></i></label>
+    </div>
+    <!-- Search Form end -->
+
+    <!-- Shopping Cart start -->
+    <div class="shopping-cart">
+      <div class="cart-item">
+        <img src="img/products/bayam.jpg" alt="Product 1">
+        <div class="item-detail">
+          <h3>Bayam</h3>
+          <div class="item-price">IDR 3K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+      <div class="cart-item">
+        <img src="img/products/ayam.jpg" alt="Product 1">
+        <div class="item-detail">
+          <h3>Ayam</h3>
+          <div class="item-price">IDR 40K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+      <div class="cart-item">
+        <img src="img/products/telur.jpg" alt="Product 1">
+        <div class="item-detail">
+          <h3>Telor</h3>
+          <div class="item-price">IDR 30K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+      <a href="https://api.whatsapp.com/send/?phone=6282269236087&text&type=phone_number&app_absent=0"
+        class="cta">Pesan</a>
+    </div>
+    <!-- Shopping Cart end -->
+
+  </nav>
+  <!-- Navbar-->
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <main class="content">
+      <h1>Belanja nikmat, harga <span>pas</span></h1>
+      <a href="https://api.whatsapp.com/send/?phone=6282269236087&text&type=phone_number&app_absent=0" class="cta">pesan
+        sekarang</a>
+    </main>
+  </section>
+  <!-- Hero -->
+
+  <!-- About -->
+  <section id="about" class="about">
+    <h2><span>Tentang</span> Kami</h2>
+
+    <div class="row">
+      <div class="about-img">
+        <img src="img/tentang-kami.jpeg" alt="Tentang Kami">
+      </div>
+      <div class="content">
+        <h3>Kenapa memilih toko kami?</h3>
+        <p>Toko online kami adalah destinasi terpercaya untuk memenuhi segala kebutuhan bahan makanan Anda.
+          Dengan beragam pilihan produk berkualitas tinggi dan layanan yang ramah, kami siap membantu Anda menciptakan
+          hidangan lezat dan menyehatkan setiap hari.</p>
+      </div>
+    </div>
+  </section>
+  <!-- About -->
+
+  <!-- Products -->
+  <section class="products" id="products">
+    <h2><span>Produk Unggulan</span> Kami</h2>
+    <p>Menyediakan produk segar dan berkualitas</p>
+
+    <div class="row">
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="img/products/bayam.jpg" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>Bayam</h3>
+          <div class="product-price">IDR 3K</div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="img/products/kangkung.jpg" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>Kangkung</h3>
+          <div class="product-price">IDR 3K</div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="img/products/ayam.jpg" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>Ayam</h3>
+          <div class="product-price">IDR 40K</div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="img/products/telur.jpg" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>Telur</h3>
+          <div class="product-price">IDR 30K</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Products -->
+
+  <!-- Contact-->
+  <section id="contact" class="contact">
+    <h2><span>Kontak</span> Kami</h2>
+    <p>silahkan hubungi atau Kunjungi toko kami di alamat berikut:
+    </p>
+
+    <div class="row">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4572.824059818629!2d105.25099512266807!3d-5.362426301923476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40c5f139636b5d%3A0xe6be235dbbababc2!2sAsrama%20Putra%20Syariah%20%22MAKTAB%20BAKHUTMAH%22!5e0!3m2!1sid!2sid!4v1713414523620!5m2!1sid!2sid"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+      <form action="">
+        <div class="input-group">
+          <i data-feather="user"></i>
+          <input type="text" placeholder="nama">
+        </div>
+        <div class="input-group">
+          <i data-feather="mail"></i>
+          <input type="text" placeholder="email">
+        </div>
+        <div class="input-group">
+          <i data-feather="phone"></i>
+          <input type="text" placeholder="no hp">
+        </div>
+        <button type="submit" class="btn">kirim pesan</button>
+      </form>
+
+    </div>
+  </section>
+  <!-- Contact-->
+
+  <!-- Footer -->
+  <footer>
+    <div class="socials">
+      <a href="#"><i data-feather="instagram"></i></a>
+      <a href="#"><i data-feather="twitter"></i></a>
+      <a href="#"><i data-feather="facebook"></i></a>
+    </div>
+
+    <div class="links">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#products">Produk Unggulan</a>
+      <a href="product.html">Produk</a>
+      <a href="#contact">Kontak</a>
+    </div>
+
+    <div class="credit" style="font-size: 0.8rem;">
+      <p>Created by <a href="">BelanjaKuy</a>. | &copy; 2024.</p>
+    </div>
+  </footer>
+  <!-- Footer-->
+
+  <!-- Feather Icons -->
+  <script>
+    feather.replace()
+  </script>
+
+  <!-- Javascript -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>

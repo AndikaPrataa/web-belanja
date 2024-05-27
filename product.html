@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BelanjaKuy</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        footer .links {
+            margin-bottom: 1.4rem;
+        }
+
+        footer .links a {
+            color: #fff;
+            padding: 0.7rem 1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="index.html" class="navbar-logo">Belanja<span>Kuy</span>.</a>
+
+        <div class="navbar-nav">
+            <a href="index.html">Home</a>
+            <a href="index.html">Tentang Kami</a>
+            <a href="index.html">Produk Unggulan</a>
+            <a href="product.html">Produk</a>
+            <a href="index.html">Kontak</a>
+        </div>
+
+        <div class="navbar-extra">
+            <a href="#" id="search-button"><i data-feather="search"></i></a>
+            <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+            <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+
+        <!-- Search Form start -->
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box"><i data-feather="search"></i></label>
+        </div>
+        <!-- Search Form end -->
+
+        <!-- Shopping Cart start -->
+        <div class="shopping-cart">
+            <div class="cart-item">
+                <img src="img/products/bayam.jpg" alt="Product 1">
+                <div class="item-detail">
+                    <h3>Bayam</h3>
+                    <div class="item-price">IDR 3K</div>
+                </div>
+                <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+            <div class="cart-item">
+                <img src="img/products/ayam.jpg" alt="Product 1">
+                <div class="item-detail">
+                    <h3>Ayam</h3>
+                    <div class="item-price">IDR 40K</div>
+                </div>
+                <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+            <div class="cart-item">
+                <img src="img/products/telur.jpg" alt="Product 1">
+                <div class="item-detail">
+                    <h3>Telor</h3>
+                    <div class="item-price">IDR 30K</div>
+                </div>
+                <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+            <a href="https://api.whatsapp.com/send/?phone=6282269236087&text&type=phone_number&app_absent=0"
+                class="cta">Pesan</a>
+        </div>
+        <!-- Shopping Cart end -->
+
+    </nav>
+    <!-- Navbar-->
+
+    <!-- Products -->
+    <section class="products" id="products">
+        <h2><span>Produk</span> Kami</h2>
+
+        <div class="row">
+            <div class="product-card">
+                <div class="product-icons">
+                    <a href="#"><i data-feather="shopping-cart"></i></a>
+                </div>
+                <div class="product-image">
+                    <img src="img/products/bayam.jpg" alt="Product">
+                </div>
+                <div class="product-content">
+                    <h3>Bayam</h3>
+                    <div class="product-price">IDR 3K</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-icons">
+                    <a href="#"><i data-feather="shopping-cart"></i></a>
+                </div>
+                <div class="product-image">
+                    <img src="img/products/kangkung.jpg" alt="Product">
+                </div>
+                <div class="product-content">
+                    <h3>Kangkung</h3>
+                    <div class="product-price">IDR 3K</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-icons">
+                    <a href="#"><i data-feather="shopping-cart"></i></a>
+                </div>
+                <div class="product-image">
+                    <img src="img/products/ayam.jpg" alt="Product">
+                </div>
+                <div class="product-content">
+                    <h3>Ayam</h3>
+                    <div class="product-price">IDR 40K</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-icons">
+                    <a href="#"><i data-feather="shopping-cart"></i></a>
+                </div>
+                <div class="product-image">
+                    <img src="img/products/telur.jpg" alt="Product">
+                </div>
+                <div class="product-content">
+                    <h3>Telur</h3>
+                    <div class="product-price">IDR 30K</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-icons">
+                    <a href="#"><i data-feather="shopping-cart"></i></a>
+                </div>
+                <div class="product-image">
+                    <img src="img/products/terrong.jpg" alt="Product">
+                </div>
+                <div class="product-content">
+                    <h3>Terong</h3>
+                    <div class="product-price">IDR 14K</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-icons">
+                    <a href="#"><i data-feather="shopping-cart"></i></a>
+                </div>
+                <div class="product-image">
+                    <img src="img/products/bawang merah.jpg" alt="Product">
+                </div>
+                <div class="product-content">
+                    <h3>Bawang Merah</h3>
+                    <div class="product-price">IDR 40K</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-icons">
+                    <a href="#"><i data-feather="shopping-cart"></i></a>
+                </div>
+                <div class="product-image">
+                    <img src="img/products/cabai.jpg" alt="Product">
+                </div>
+                <div class="product-content">
+                    <h3>Cabai Merah</h3>
+                    <div class="product-price">IDR 80K</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-icons">
+                    <a href="#"><i data-feather="shopping-cart"></i></a>
+                </div>
+                <div class="product-image">
+                    <img src="img/products/bawang putih.jpg" alt="Product">
+                </div>
+                <div class="product-content">
+                    <h3>Bawang Putih</h3>
+                    <div class="product-price">IDR 40K</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Products -->
+
+    <!-- rssfeed -->
+    <section id="rssfeed" class="rssfeed">
+        <h2>Bingung Mau Masak Apa?</h2>
+        <h2><span>Baca Resep Ini</span> Yuk</h2>
+        <div class="row">
+            <!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" preloader-text="Loading" 
+            data-fw-param="166853/"></script>
+            <!-- end feedwind code -->
+        </div>
+    </section>
+
+    <!-- vidio -->
+    <section id="vidio-penjelasan" class="vidio-penjelasan">
+        <div class="row">
+            <iframe style="text-align: center" width="560" height="315"
+                src="https://www.youtube.com/embed/DcyzWA1MR3s?si=-tLYZ1B5XztuE15O" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="socials">
+            <a href="#"><i data-feather="instagram"></i></a>
+            <a href="#"><i data-feather="twitter"></i></a>
+            <a href="#"><i data-feather="facebook"></i></a>
+        </div>
+
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="index.html">Tentang Kami</a>
+            <a href="index.html">Produk Unggulan</a>
+            <a href="#products">Produk</a>
+            <a href="index.html">Kontak</a>
+        </div>
+
+        <div class="credit" style="font-size: 0.8rem;">
+            <p>Created by <a href="">BelanjaKuy</a>. | &copy; 2024.</p>
+        </div>
+    </footer>
+    <!-- Footer-->
+
+    <!-- Feather Icons -->
+    <script>
+        feather.replace()
+    </script>
+
+    <!-- Javascript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
